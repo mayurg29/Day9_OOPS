@@ -1,4 +1,4 @@
-package com.bridgelabz.Day9;
+// Creating, adding and deleting contacts in addressbook  
 
 import java.util.*;
 
@@ -42,7 +42,7 @@ public class AddressBookSystem {
     }
 
 
-    // to create contact
+    // method to create contact
     public void createContacts() {
         Contacts contacts = new Contacts();
 
@@ -84,7 +84,7 @@ public class AddressBookSystem {
         System.out.println("Contact" + firstName + "created successfully");
     }
 
-    // to edit contacts in AddressBook
+    // method to edit contacts in AddressBook
     public void editContact() {
         Scanner sc = new Scanner(System.in);
 
@@ -131,7 +131,7 @@ public class AddressBookSystem {
             System.out.println("Contact could not be found");
     }
 
-    // to delete contact
+    // method to delete contact
     public void toDelete() {
         Scanner sc = new Scanner(System.in);
 
