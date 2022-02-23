@@ -2,12 +2,12 @@
 
 import java.util.*;
 
-public class AddressBookSystem {
+public class AddressBook {
     static Collection<Contacts> person = new ArrayList<>();
     Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-        AddressBookSystem ab = new AddressBookSystem();
+        AddressBook ab = new AddressBook();
         System.out.println("Welcome to Address Book Program");
         int choice = 0;
         while (choice != 4){
@@ -34,7 +34,7 @@ public class AddressBookSystem {
                 toDelete();
                 break;
             case 4:
-                System.out.println("Exit....");
+                System.out.println("Exited....");
                 break;
             default:
                 System.out.println("Enter valid Option");
